@@ -12,7 +12,7 @@ function setup() {
 	createCanvas(windowWidth, windowHeight);
 
 	// Create the GUI
-	sliderRange(0, 20, 1);
+	sliderRange(0, 50, 1);
 	gui = createGui('Panel');
 	gui.addGlobals('brush', 'strokeColor', 'drawStroke',     'fillColor','drawFill', 'thickness');
   
